@@ -1,0 +1,56 @@
+/* app css stylesheet */
+
+body {
+  padding-top: 20px;
+}
+
+.properties {
+  list-style: none;
+}
+
+.thumb {
+  float: left;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  height: 100px;
+  width: 100px;
+}
+
+.properties li {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
+}
+
+.bar {
+	margin-left: 28px;
+}
+.logo{
+	height: 120px;
+	width: 100px;
+}
+
+.property-details{
+    margin-left: 40px;
+	
+}
+
+.property-img{
+    height: 291px;	
+    width: 289px;
+}
+.details-continer{
+    display: inline-block;
+	margin-left: 35px;
+}
+.title {
+	font-size: 29px;
+	padding-bottom: 20px;
+}
+.github-link {
+	position: absolute;
+	right: 100px;
+	border: 10px;
+	height: 20px;
+	background: greenyellow;
+}

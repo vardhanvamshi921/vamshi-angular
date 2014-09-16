@@ -1,0 +1,18 @@
+ <div class="bar">
+	<!-- Create a binding between the searchString model and the text field -->
+	<input type="text" ng-model="searchString" placeholder="Search by Location" />
+	<a class="github-link" href="https://github.com/vardhanvamshi921/vamshi-angular" target="_blank"> Github URL for source coode</a>
+	
+</div>
+<div class="col-md-10">
+  <ul class="properties">
+    <li ng-repeat="property in properties|searchFor:searchString"
+        class="thumbnail">
+      <a href="#/properties/{{property.name}}" class="thumb"><img class="logo" ng-src="{{property.imgurl}}"></img></a>
+      <a href="#/properties/{{property.name}}">{{property.name}}</a>
+      <p>{{property.about}}</p>
+      <span>Location: {{property.location}}</span>
+      <div>RS.{{property.price}} Lakhs</div>
+    </li>
+  </ul>
+</div>
