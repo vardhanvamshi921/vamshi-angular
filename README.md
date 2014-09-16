@@ -1,4 +1,4 @@
 vamshi-angular
 ==============
 
-Angular learning building the applications
+Angular learning and building the applications using angualr.
