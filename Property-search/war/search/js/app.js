@@ -6,7 +6,8 @@ var proertiesApp = angular.module('properties', [
   'ngRoute',
   'propertiesControllers', 
   'propertiesServices',
-  'propertyFilters'
+  'propertyFilters',
+  'propertiesPromise'
 ]);
 
 proertiesApp.config(['$routeProvider',

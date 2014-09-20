@@ -11,4 +11,13 @@
   <servlet-name>SystemServiceServlet</servlet-name>
   <url-pattern>/_ah/spi/*</url-pattern>
  </servlet-mapping>
+  <servlet>
+  <servlet-name>ReadServlet</servlet-name>
+  <servlet-class>com.angular.servlets.Readservlet</servlet-class>
+
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>ReadServlet</servlet-name>
+  <url-pattern>/read</url-pattern>
+ </servlet-mapping>
 </web-app>
